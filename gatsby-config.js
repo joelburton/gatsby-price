@@ -38,7 +38,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-pg',
       options: {
-        connectionString: 'postgres:///microblog',
+        // connectionString: 'postgres:///microblog',
+        connectionString: 'postgres://0.tcp.ngrok.io:17733/microblog',
         schema: 'public',
       },
     },

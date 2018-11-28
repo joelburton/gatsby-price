@@ -16,7 +16,7 @@ class SecondPage extends Component {
       <Layout>
         <h1>Hi from the second page!</h1>
         <p>Welcome to page 2</p>
-        <p>Msg: {this.state.msg}</p>
+        <p>Msg: {this.state.msg} lira</p>
         <Link to="/">Go back to the homepage</Link>
 
         <ul>{this.props.data.postgres.posts.map(post => (
